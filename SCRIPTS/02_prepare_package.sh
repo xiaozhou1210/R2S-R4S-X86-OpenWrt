@@ -326,11 +326,11 @@ svn co https://github.com/immortalwrt/packages/trunk/libs/rapidjson feeds/packag
 ln -sf ../../../feeds/packages/libs/rapidjson ./package/feeds/packages/rapidjson
 svn co https://github.com/immortalwrt/packages/trunk/libs/libcron feeds/packages/libs/libcron
 mkdir feeds/packages/libs/libcron/patches
-wget -P feeds/packages/libs/libcron/patches/ https://github.com/QiuSimons/libcron/commit/432fb6f.patch
+wget -P feeds/packages/libs/libcron/patches/ https://github.com/QiuSimons/libcron/commit/3eae4e3.patch
 ln -sf ../../../feeds/packages/libs/libcron ./package/feeds/packages/libcron
 svn co https://github.com/immortalwrt/packages/trunk/libs/quickjspp feeds/packages/libs/quickjspp
 mkdir feeds/packages/libs/quickjspp/patches
-wget -P feeds/packages/libs/quickjspp/patches/ https://github.com/QiuSimons/quickjspp/commit/4cb20c1.patch
+wget -P feeds/packages/libs/quickjspp/patches/ https://github.com/QiuSimons/quickjspp/commit/def6ae8.patch
 ln -sf ../../../feeds/packages/libs/quickjspp ./package/feeds/packages/quickjspp
 # 网易云音乐解锁
 git clone --depth 1 https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/new/UnblockNeteaseMusic
